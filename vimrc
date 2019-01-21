@@ -58,9 +58,12 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+set fileencodings=ucs-bom,utf-8,cp936
+set fileencoding=utf-8
+set encoding=utf-8
+
 " using 'set expandtab' replace tab to N(decided by tabstop) space
 " using :%retab! to retab the table
-set encoding=utf-8
 set tabstop=4
 " set expandtab
 set shiftwidth=4
