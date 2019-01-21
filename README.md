@@ -5,7 +5,7 @@ vimrc file
 `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
 ## Configure Plugins
-copy this file [vimrc](vimrc) to ~/.vim
+copy this file [vimrc](vimrc) to ~/.vimrc
 
 ## Install Plugins
 Launch `vim` and run `:PluginInstall`  
