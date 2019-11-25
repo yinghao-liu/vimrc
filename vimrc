@@ -66,6 +66,7 @@ set encoding=utf-8
 " using :%retab! to retab the table
 set tabstop=4
 " set expandtab
+" set noexpandtab
 set shiftwidth=4
 set hlsearch	"高亮显示
 set ai
@@ -83,6 +84,9 @@ highlight BadWhitespace ctermbg=red guibg=darkred
 au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
 
 "set list listchars=tab:>-,space:+
+
+" for xxx file not found in c/c++ include, refer to :help highlight
+highlight SpellBad NONE
 
 " more beautiful
 let python_highlight_all=1
